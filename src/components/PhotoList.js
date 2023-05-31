@@ -18,6 +18,7 @@ function Photo({ photo, deletePhoto, ratePhoto, upvotePhoto, downvotePhoto }) {
             {star}
           </button>
         ))}
+        <span>Liczba ocen: {photo.ratingsCount}</span>
       </div>
       <div>
         <button onClick={() => upvotePhoto(photo.id)}>
