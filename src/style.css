@@ -1,0 +1,12 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+img {
+  max-width: 300px;
+}
+
+button {
+  margin: 3px;
+}
